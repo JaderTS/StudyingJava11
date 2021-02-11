@@ -8,11 +8,16 @@ public class Student extends Person {
         this.ra = ra;
     }
 
-    public String getRa(){
+    public String getRa() {
         return this.ra;
     }
 
-    public void setRa(String ra){
-        this.ra=ra;
+    public void setRa(String ra) {
+        this.ra = ra;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", ra='" + ra + '\'';
     }
 }
