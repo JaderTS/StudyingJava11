@@ -22,4 +22,12 @@ public class Classroom extends Person {
     public String toString() {
         return super.toString() + ", study in the classroom with number " + class_number;
     }
+
+    public void message(){
+        System.out.println("\nI'm just working with overloading...");
+    }
+
+    public void message(String msg){
+        System.out.println(msg);
+    }
 }

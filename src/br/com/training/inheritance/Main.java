@@ -8,7 +8,12 @@ public class Main {
 
         Classroom classroom1 = new Classroom("João", 1986, "joao@gmail.com",123);
 
-        System.out.println(student1);
+        classroom1.message();
+        classroom1.message("My message is...");
+
+        System.out.println("\n"+student1);
         System.out.println(classroom1);
+
+
     }
 }
